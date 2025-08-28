@@ -1,8 +1,10 @@
-export default function AboutPage() {
-    return (
-        <section className="page">
-            <h1>About Page</h1>
-            <p>Who we are and what we do 🤷🏼‍♂️</p>
-        </section>
-    );
+function AboutPage(params) {
+  return (
+    <section>
+      <h1>Om os</h1>
+      <p>Denne side fortæller om vores virksomhed og værdier.</p>
+    </section>
+  );
 }
+
+export default AboutPage;
